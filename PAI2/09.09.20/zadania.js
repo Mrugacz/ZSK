@@ -1,3 +1,4 @@
+//Jakub Mrugalski 4b2
 let zad1natychmiastowa = ( function(a) {return a*a;})(20);
 
 function zad1klasyczna(a)
