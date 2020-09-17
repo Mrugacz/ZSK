@@ -1,0 +1,16 @@
+.menu{
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: blue;
+}
+nav{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.menu:hover{
+    background-color: lightgray;
+}
