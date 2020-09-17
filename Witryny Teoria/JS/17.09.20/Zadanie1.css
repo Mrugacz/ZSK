@@ -1,0 +1,15 @@
+#main{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    /* flex-shrink: 10px; */
+    /* flex-basis: 150px;  */
+}
+div{
+    width: 100px;
+    height: 100px;
+    /* flex-shrink: 10px; */
+    /* flex-basis: 10px; */
+}
+
