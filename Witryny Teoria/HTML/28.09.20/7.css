@@ -1,0 +1,39 @@
+body
+{
+    background-color: lightgray;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+.zad
+{
+    background-color: rgb(121, 103, 156);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 25%;
+}
+.block
+{
+    background-color: powderblue;
+    border: 1px solid black;
+    flex-grow: .25;
+}
+#b1, #b4
+{
+    height: 75px;
+}
+#b2, #b5
+{
+    height: 150px;
+}
+#b3, #b6
+{
+    height: 225px;
+}
+#b4
+{
+    align-self: flex-end;
+}
