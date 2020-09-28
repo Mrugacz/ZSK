@@ -1,0 +1,50 @@
+.block
+{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    padding: 10px;
+    flex-basis: 200px;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+#a,#b,#c
+{
+    display: flex;
+    background-color: black;    
+}
+#c
+{
+    justify-content: space-between;
+}
+#b3
+{
+    flex-grow: 2;
+}
+#b4
+{
+    height: 50%;
+    flex-grow: 2;
+    align-self: center;
+}
+#b6
+{
+    order: -2;
+}
+#b8
+{
+    width: 150px;
+    flex-shrink: 1;
+}

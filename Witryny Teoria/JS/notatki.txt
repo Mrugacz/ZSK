@@ -1,1 +1,29 @@
 T: Grid
+
+Układ soatki składa się z elementu nadrzędnego z co najmniej jedny elementem podrzędnym.
+
+Element nadrzędny wymaga `display: grid`
+
+grid-template-columns - liczba i szerokość kolumn
+
+grid-column-gap
+grid-row-gap
+grid-gap
+
+grid-column-start
+grid-column-end
+
+fr - ułamek dostępnej przestrzeni
+
+Jeśli wrapper ma szerokość 960px: 
+pierwsza kolumna: 960/(1+3+2)*1 = 160
+druga kolumna: 960/(1+3+2)*3 = 480
+trzecia kolumna: 960/(1+3+2)*2 = 320
+
+justify-content
+space-evenly
+space-around
+space-between
+center
+start
+end
